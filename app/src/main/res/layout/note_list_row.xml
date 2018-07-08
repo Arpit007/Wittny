@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/listBackgroundSelector"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/note_list_item_padding_bottom"
+    android:paddingTop="@dimen/note_list_item_padding_top">
+
+
+    <com.starkx.arpit.wittny.src.TintedTextView
+        android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/padding_large"
+        android:layout_marginLeft="@dimen/list_padding_left"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginStart="@dimen/list_padding_left"
+        android:ellipsize="end"
+        android:lines="1"
+        android:singleLine="true"
+        android:textColor="?attr/noteTitleColor"
+        android:textSize="18sp"
+        tools:text="Three-line item"/>
+
+    <com.starkx.arpit.wittny.src.TintedTextView
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_title"
+        android:layout_marginEnd="@dimen/padding_large"
+        android:layout_marginLeft="@dimen/list_padding_left"
+        android:layout_marginRight="@dimen/padding_large"
+        android:layout_marginStart="@dimen/list_padding_left"
+        android:ellipsize="end"
+        android:lineSpacingExtra="4dp"
+        android:maxLines="2"
+        android:textColor="?attr/notePreviewColor"
+        android:textSize="16sp"
+        tools:text="The first few times he tried to climb up on\nthe smooth chest of drawers."/>
+
+</RelativeLayout>

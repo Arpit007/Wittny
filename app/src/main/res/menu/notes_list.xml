@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_trash_24dp"
+        android:title="@string/delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_empty_trash"
+        android:icon="@drawable/ic_trash_selector"
+        android:title="@string/empty_trash"
+        app:showAsAction="ifRoom"/>
+
+</menu>

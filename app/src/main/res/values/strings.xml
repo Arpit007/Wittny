@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Wittny</string>
+    <string name="app_launcher_name" translatable="false">@string/app_name</string>
+    <string name="undo">Undo</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="notes">All Notes</string>
+    <string name="trash">Trash</string>
+    <string name="search">Search notes</string>
+    <string name="restore">Restore note</string>
+    <string name="delete">Move to trash</string>
+    <string name="spell">Spell Correction</string>
+    <string name="share">Share Notes</string>
+    <string name="rephrase">Rephrase</string>
+    <string name="speak">Speak Out</string>
+    <string name="pic">Translate</string>
+    <string name="note_deleted">Note trashed.</string>
+    <string name="notes_trashed">Notes trashed.</string>
+    <string name="empty_trash">Empty trash</string>
+    <string name="confirm_empty_trash">Are you sure you want to empty the trash?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="trash_is_empty">The trash is empty.</string>
+    <string name="no_notes_found">No notes found.</string>
+    <string name="no_notes_here">No notes here.</string>
+    <string name="why_not_create_one">Why not %1$screate one%2$s?</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="new_note_list">New note…</string>
+    <string name="tab_edit">Edit</string>
+    <string name="note_selected">%d note selected</string>
+    <string name="notes_selected">%d notes selected</string>
+    <string name="dialog_select_prompt">Choose a picture</string>
+    <string name="dialog_select_camera">Camera</string>
+    <string name="dialog_select_gallery">Gallery</string>
+    <string name="image_picker_error">Something is wrong with that image. Pick a different one please.</string>
+
+    <plurals name="trashed_notes">
+        <item quantity="one">@string/note_deleted</item>
+        <item quantity="other">@string/notes_trashed</item>
+    </plurals>
+    <plurals name="selected_notes">
+        <item quantity="one">@string/note_selected</item>
+        <item quantity="other">@string/notes_selected</item>
+    </plurals>
+</resources>

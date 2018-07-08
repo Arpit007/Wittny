@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_pic"
+        android:icon="@drawable/ic_add_to_photos_black_24dp"
+        android:title="@string/pic"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_translate"
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="@string/pic"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_trash_24dp"
+        android:title="@string/delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_spell"
+        android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+        android:title="@string/spell"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_rephrase"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/rephrase"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_speak"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="@string/speak"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/menu_share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+</menu>
